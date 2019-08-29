@@ -1,0 +1,262 @@
+.nav li{
+       list-style-type: none;
+       font-size: 20px;
+        padding-bottom: 25px;
+        float: left;
+        margin-left:30px;
+         color:grey;
+         margin-top:27px;
+         
+   }
+   .nav{
+    background-color:#0D2150;
+    overflow: hidden;
+ }
+.filter1{
+    color: #703BD7;
+}
+#pay{
+    color:white
+}
+ul li span{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    font-size:22px;
+    margin-left:5px
+
+}
+.nav_action{
+    background-clip: white;
+}
+.nav_action li{
+    
+        list-style-type: none;
+        font-size: 20px;
+         padding-bottom: 25px;
+         float: left;
+         margin-left:30px;
+         top:50%;   
+}
+#prepare{
+    color:	#703BD7;
+}
+#all{
+    margin-top:px
+}
+.filter div li{
+    list-style-type: none;
+       font-size: 18px;
+        padding-bottom: 25px;
+        float: left;
+        margin-left:30px;
+        align-items: center;
+
+}
+
+.body_section{
+    width:100%;
+    float:left;
+    background-color:#F2F3F5;
+    }
+
+.filter3{
+    opacity: 0.5
+}
+.filter4{
+    float:right;
+    margin-right:180px;
+}
+.filter4 img{
+    opacity: 0.5
+}
+.indiv{
+    background-color:#F2F3F5;
+    width:100%;
+    float:left;
+    height: 70%;
+}
+#tl{
+    opacity:0.3;
+    color:grey;
+}
+.innerbodyHead{
+        margin-left:25px;
+}
+.pannel1{
+    width:30%;
+    border-radius:10px; 
+    background-color:white;
+    margin-left:25px;
+    padding-bottom:15px;
+    padding-right:25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+
+}
+.pannel1 input{
+    width:20px;
+    height: 20px;
+    margin:20px;
+}
+.pannel1  span{
+    font-size:20px;
+    margin-top:20px;
+    margin:20px;
+}
+.pannel1 h2{
+    float: right;
+    font-size: 20px
+}
+.pannel1 p{
+    margin-top: 40px;
+    float:right;
+    margin-right: -93px;
+    opacity: 0.3
+}
+.img1{
+    border-radius: 12px;
+    margin-top:15px
+    
+}
+.pannel2{
+    width:30%;
+    border-radius:10px; 
+    background-color:white;
+    padding-right:25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 20px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.pannel2 input{
+    width:20px;
+    height: 20px;
+    color: #703BD7;
+    margin:20px;
+}
+.pannel2 h2{
+    float: right;
+    font-size: 20px
+}
+.pannel2 p{
+    margin-top: 40px;
+    float:right;
+    margin-right: -93px;
+    opacity: 0.3
+}
+.pannel2  span{
+    font-size:20px;
+    margin:20px;
+}
+.pannel3{
+    width:30%;
+    border-radius:10px; 
+    background-color:white;
+    padding-right:25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 20px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.pannel3 input{
+    width:20px;
+    height: 20px;
+    color: #703BD7;
+    margin:20px;
+}
+.pannel3 h2{
+    float: right;
+    font-size: 20px
+}
+.pannel3 p{
+    margin-top: 40px;
+    float:right;
+    margin-right: -93px;
+    opacity: 0.3
+}
+.pannel3  span{
+    font-size:20px;
+    margin:20px;
+}
+.img2{
+    border-radius: 12px;
+    margin-top:5px
+}
+.pannel4{
+    width:30%;
+    border-radius:10px; 
+    background-color:white;
+    padding-right:25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 20px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.pannel4 input{
+    width:20px;
+    height: 20px;
+    color: #703BD7;
+    margin:20px;
+}
+.pannel4 h2{
+    float: right;
+    margin-top:20px;
+    font-size: 20px;
+}
+.pannel4 p{
+    margin-top: 40px;
+    float:right;
+    margin-right: -93px;
+    opacity: 0.3
+}
+.pannel4  span{
+    font-size:20px;
+    margin:20px;
+}
+.total{
+    float: right;
+    width:30%;
+    border-radius:10px; 
+    background-color:white;
+    padding-right:75px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding-bottom: 5%;
+    margin-top:5px;
+    margin-left:25px;
+    margin-right: 30%
+    
+}
+.total img{
+    margin-top:50px;
+    margin-left:65px;
+border-radius:50%;
+background-color: #d9d9d9;
+
+}
+.total span{
+    font-size:25px;
+    
+}
+.total h2 {
+    margin-left:50px;
+    font-size:55px;
+    font-family: 'Courier New', Courier, monospace
+}
+.total p{
+    color:#703BD7;
+    font-size:16px;
+    margin-left:35px;
+      
+}
+.textarea{
+    margin-left:20px;
+    border-radius: 10px;
+}
+#t1{
+    color:grey;
+    opacity: 0.4;
+}
+.description{
+    margin-left:65px;
+    font-size:20px
+}

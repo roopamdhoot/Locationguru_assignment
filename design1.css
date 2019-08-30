@@ -1,28 +1,60 @@
 .nav li{
        list-style-type: none;
-       font-size: 20px;
+       font-size: 23px;
         padding-bottom: 25px;
         float: left;
         margin-left:30px;
-         color:grey;
+         color:#556284;
          margin-top:27px;
+         
          
    }
    .nav{
     background-color:#0D2150;
     overflow: hidden;
  }
-.filter1{
-    color: #703BD7;
+.filter1 span{
+    color: #5D21D2;
+   position: absolute;
+    font-size:20px;
+    
+ }
+.filter1 select{
+    border:none;
+   padding-left:10px;
+    background-color: #F2F3F5;
 }
+.filter1 img{
+    margin-top:1px;
+}
+
+.filter2 span{
+    color: #5D21D2;
+    position:absolute;
+    font-size:20px;
+    margin-left:-3px;
+    
+     }
+.filter2 select{
+    border:none;
+   padding-left:10px;
+    background-color: #F2F3F5;
+}
+.filter2 img{
+    margin-top:1px;
+    margin-left:8rem;
+}
+
 #pay{
     color:white
 }
 ul li span{
     background-color: whitesmoke;
-    border-radius: 12px;
-    font-size:22px;
-    margin-left:5px
+    border-radius: 50rem;
+    padding:5px;
+    font-size:25px;
+    margin-left:2px;
+
 
 }
 .nav_action{
@@ -30,18 +62,17 @@ ul li span{
 }
 .nav_action li{
     
-        list-style-type: none;
-        font-size: 20px;
+         list-style-type: none;
+         font-size: 22px;
          padding-bottom: 25px;
          float: left;
+         font-family: 'Times New Roman', Times, serif;
          margin-left:30px;
          top:50%;   
 }
-#prepare{
+#prepare {
     color:	#703BD7;
-}
-#all{
-    margin-top:px
+    
 }
 .filter div li{
     list-style-type: none;
@@ -60,14 +91,42 @@ ul li span{
     }
 
 .filter3{
-    opacity: 0.5
+    opacity: 0.5;
+    }
+.filter3 select{
+    border:none;
+    padding-left:10px;
+     background-color: #F2F3F5;
 }
+.filter3 span{
+    margin-left:-1px;
+    font-size:20px;
+ position: absolute;
+    
+    }
+ .filter3 img{
+        margin-top:1px;
+        margin-left:15rem;
+    }
 .filter4{
     float:right;
-    margin-right:180px;
+    margin-right:300px;
+    
+}
+
+.filter4 span{
+    margin-left:-15px;
+    font-size:20px;
+    margin-top:-12px;
+    text-align: center;
+    font-style: inherit;
+}
+.seprator{
+    opacity: 0.3;
 }
 .filter4 img{
-    opacity: 0.5
+    opacity: 0.3;
+    margin:auto;
 }
 .indiv{
     background-color:#F2F3F5;
@@ -82,7 +141,7 @@ ul li span{
 .innerbodyHead{
         margin-left:25px;
 }
-.pannel1{
+.panel1{
     width:30%;
     border-radius:10px; 
     background-color:white;
@@ -93,21 +152,23 @@ ul li span{
   
 
 }
-.pannel1 input{
+.panel1 input{
     width:20px;
     height: 20px;
     margin:20px;
 }
-.pannel1  span{
+.panel1  span{
     font-size:20px;
     margin-top:20px;
     margin:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.pannel1 h2{
+.panel1 h2{
     float: right;
-    font-size: 20px
+    font-size: 20px;
+    
 }
-.pannel1 p{
+.panel1 p{
     margin-top: 40px;
     float:right;
     margin-right: -93px;
@@ -118,7 +179,39 @@ ul li span{
     margin-top:15px
     
 }
-.pannel2{
+.panel2{
+    width:30%;
+    border-radius:10px; 
+    border-left:5px solid #703BD7;
+    background-color:white;
+    padding-right:25px;
+    box-shadow: 0 4px 8px 0 grey;
+  padding-bottom: 20px;
+    margin-top:25px;
+    margin-left:25px;
+}
+.panel2 input{
+    width:20px;
+    height: 20px;
+    color: #703BD7;
+    margin:20px;
+}
+.panel2 h2{
+    float: right;
+    font-size: 20px
+}
+.panel2 p{
+    margin-top: 40px;
+    float:right;
+    margin-right: -93px;
+    opacity: 0.3
+}
+.panel2  span{
+    font-size:20px;
+    margin:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.panel3{
     width:30%;
     border-radius:10px; 
     background-color:white;
@@ -128,61 +221,32 @@ ul li span{
     margin-top:25px;
     margin-left:25px;
 }
-.pannel2 input{
+.panel3 input{
     width:20px;
     height: 20px;
     color: #703BD7;
     margin:20px;
 }
-.pannel2 h2{
+.panel3 h2{
     float: right;
     font-size: 20px
 }
-.pannel2 p{
+.panel3 p{
     margin-top: 40px;
     float:right;
     margin-right: -93px;
     opacity: 0.3
 }
-.pannel2  span{
+.panel3  span{
     font-size:20px;
     margin:20px;
-}
-.pannel3{
-    width:30%;
-    border-radius:10px; 
-    background-color:white;
-    padding-right:25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding-bottom: 20px;
-    margin-top:25px;
-    margin-left:25px;
-}
-.pannel3 input{
-    width:20px;
-    height: 20px;
-    color: #703BD7;
-    margin:20px;
-}
-.pannel3 h2{
-    float: right;
-    font-size: 20px
-}
-.pannel3 p{
-    margin-top: 40px;
-    float:right;
-    margin-right: -93px;
-    opacity: 0.3
-}
-.pannel3  span{
-    font-size:20px;
-    margin:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .img2{
     border-radius: 12px;
     margin-top:5px
 }
-.pannel4{
+.panel4{
     width:30%;
     border-radius:10px; 
     background-color:white;
@@ -192,26 +256,27 @@ ul li span{
     margin-top:25px;
     margin-left:25px;
 }
-.pannel4 input{
+.panel4 input{
     width:20px;
     height: 20px;
     color: #703BD7;
     margin:20px;
 }
-.pannel4 h2{
+.panel4 h2{
     float: right;
     margin-top:20px;
     font-size: 20px;
 }
-.pannel4 p{
+.panel4 p{
     margin-top: 40px;
     float:right;
     margin-right: -93px;
     opacity: 0.3
 }
-.pannel4  span{
+.panel4  span{
     font-size:20px;
     margin:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .total{
     float: right;
@@ -235,19 +300,38 @@ background-color: #d9d9d9;
 }
 .total span{
     font-size:25px;
+    margin-left:12px;
+    margin-top:-12px;
+    opacity:0.6;
+    align-content: center;
+    text-align: justify
     
 }
 .total h2 {
     margin-left:50px;
-    font-size:55px;
-    font-family: 'Courier New', Courier, monospace
+    font-size:65px;
+    font-style: inherit;
+    font-family: 'Poppins', sans-serif;
 }
 .total p{
     color:#703BD7;
     font-size:16px;
-    margin-left:35px;
-      
+    margin-left:25px;
+    background-color:snow;
+    
+        
 }
+.total p span{
+    font-size:18px;
+    margin-left:30px;
+    background-color: #F2F3F5;
+    color:black;    
+}
+.total h6{
+    margin-top:-5px;
+    font-size:18px;
+}
+
 .textarea{
     margin-left:20px;
     border-radius: 10px;
@@ -257,6 +341,17 @@ background-color: #d9d9d9;
     opacity: 0.4;
 }
 .description{
-    margin-left:65px;
-    font-size:20px
+    margin-left:35px;
+    font-size:20px;
+   color:black;
 }
+textarea::-webkit-input-placeholder {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-content: center;
+font-size:20px;
+    }
+.withoutrecept h3 span{
+        color:grey;
+        opacity:0.5px;
+    }

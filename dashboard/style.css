@@ -1,0 +1,385 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.side1{
+    width:80%;
+}
+.search-bar input[type="text"]{
+padding-top:10px;
+padding-bottom:10px;
+padding-left:15px;
+border: none;
+background-color: #f8f8f7;
+}
+.search{
+    float:right;
+    margin-right:350px;
+  border:1px solid grey;
+  border-radius:35px;
+  margin-top:20px;
+  padding-right:50px;
+  padding-top:10px;
+ 
+  padding-bottom:10px;
+  background-color: #f8f8f7;
+}
+.search-bar img{
+    margin-left:40px;
+}
+.search select{
+    background-color: #f8f8f7;
+    padding: 5px;
+    margin-left:0px;
+    border: none
+}
+.verticalLine {
+    border-left: 1px solid grey;
+    margin-left:208px;
+  }
+  .seprator{
+    border-left: 1px solid grey;
+    margin-left:29rem;
+    height:15rem;
+    margin-top:-145px;
+
+  }
+  .seprator h3{
+      margin-top:30px;
+      margin-left:20px;
+      color:white
+  }
+  .seprator p{
+    margin-top:0px;
+    margin-left:20px;
+    color:white
+}
+  .card{
+      background-color: #39cad7;
+      margin-top:100px;
+      margin-left:20px;
+      padding-left:50px;
+      padding-right:80px;
+      padding-bottom:0px;
+      width:45rem;
+      border-radius: 15px;
+      box-shadow: 2px 2px 2px 2px #BFBFBF
+  }
+  .google-title{
+    margin-left:20px;
+  }
+  .dot{
+    margin-top:-40px;
+  }
+  .detail{
+      margin-top:-100px;
+      margin-left:120px
+  }
+  .detail li{
+float:left;
+list-style: none;
+margin-left:25px;
+  }
+  .add{
+      border-radius:20px;
+      background-color: #fdd426;
+      padding:15px;
+  }
+  .clerk img{
+    border-radius:20px;
+  }
+  .book img{
+    border-radius:20px; 
+  }
+  .btn{
+      margin-top:150px;
+  }
+  .cal li{
+      float:left;
+      margin-left: 20px;
+      margin-top:9rem;
+list-style: none ;
+background-color: #f8f8f7;
+padding:10px 25px 10px 25px;
+border-radius: 25px;
+color:black;
+  }
+  .cal li:hover{
+      background-color: #7581ff;
+  }
+  .inner-wrapper-header{
+    margin-left:150px;margin-top:-200px;
+    color:white
+  }
+  .cal{
+      float: right;
+      margin-right:370px;
+      margin-top:-10px;
+  }
+  .inner-wrapper img{
+      margin-top:50px;
+      border-radius:20px;
+      padding:15px;
+      background-color: snow;
+  }
+  .inner-wrapper h2{
+      margin-top:50px;
+      color: white;
+  }
+  .inner-wrapper p{
+      margin-left:150px;
+      margin-top:20px;
+    width:19rem;
+      color:white;
+  }
+  .inner-wrapper label{
+    margin-left:200px;
+    margin-top:-400px;
+}
+.google{
+    margin-left:30rem;
+    padding:15px 50px 15px 50px ;
+    background-color: #ff9492;
+    border-radius:50px;
+    border: 1px solid #BFBFBF;
+    margin-top:30px;
+}
+.google img{
+border-radius:4px;
+
+}
+.slack{
+        margin-top:20px;
+        margin-left:30rem;
+        padding:15px 50px 15px 50px ;
+        background-color: #7581ff;
+        border: 1px solid #BFBFBF;
+        border-radius:50px;
+    }
+.slack img{
+border-radius:12px;
+}
+.external{
+    margin-left:25px    
+
+}
+
+.external h2{
+    margin-top:-210px;
+}
+.external h3{
+    margin-top:50px;
+}
+.external a{
+    color:black;
+    
+}
+
+.see-jobs{
+    width:150px;
+    padding:15px 30px 15px 30px;
+    border-radius:20px; 
+    margin-top:20px;
+    background-color: #fdd426;
+    
+}
+.nav-bar{
+    float:right;
+    background-color: #f9f6f2;
+    width:30%;
+    padding-right:50px;
+    margin-top:-740px;
+    margin-right:rem;
+    border-right: 1px solid red; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;   
+    height: 800PX;
+}
+.home{
+    margin-top:40px;
+}
+.nav-to{
+    margin-left:25px;
+    margin-top:20px;
+}
+.notification-icon{
+    margin-top:60px;
+    margin-left:20px;
+    background-color: #fdd426;
+    padding:10px;
+    border-radius:10px;
+}
+.alert{
+    color:red;
+    padding:12px;
+    margin-top:-60px;
+}
+.profile-title{
+    margin-top:30px;
+    margin-right:90px;
+    float:right;
+    
+}.profile-title img{
+    margin-left:0px;
+    border-radius:35px;
+
+    padding:20px;
+}
+.profile-title h2{
+    margin-top:20px;
+    margin-left:50px;
+    font-size:26px;
+}
+.view-more{
+    font-size:28px;
+    margin-left:40px;
+}
+.profile-img{
+    margin-right:10px;
+    position: absolute;
+    margin-top:-20px;
+}
+.nav-hor{
+    float:right;
+    margin-top:-55px;
+    margin-right:45px;
+}
+
+.data1 img{
+border-radius:10px;
+margin-left:50px;
+}
+.data1 label{
+    margin-left:110px;
+}
+.data1  p{
+    margin-left:110px;
+
+}
+.data1{
+    margin-top:50px;
+}
+.text{
+    margin-top:-50px;
+}
+.plus{
+    float: right;
+    margin-top:-70px;
+    margin-right:50px;
+
+}
+.filter{
+    margin-left:45px; 
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-left:100px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+  
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    margin-top:-20px;
+    margin-left:120px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 5px;
+  }
+  
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+
+  .container input:checked ~ .checkmark {
+    background-color: #fdd426;
+  }
+  
+ 
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+
+  .container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .salary{
+      margin-top:25px;
+      margin-left:45px;
+  }
+  .google-logo{
+      margin-left:0px
+  }
+ .google-title{
+     margin-left:20px;
+ }
+ .heart-google{
+     margin-left:50px;
+ }
+ .heart{
+    margin-left:50px;
+}
+  
+  .bottom-bar li{
+      float:left;
+      background-color:#f8f8f7;
+    padding-bottom:10px;
+      align-content:center;
+      line-height: 20px;
+      margin-left:115px;
+     list-style: none;
+    
+        }
+  .bottom-bar li img{
+      margin-top:40px;
+     
+  }
+  .bottom{
+      margin-left:20px;
+background-color: #f8f8f7;
+height: 6rem;
+width:58%;
+margin-top:100px;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+  }
+  .slack-button{
+    margin-left:20px;
+  }
+ 

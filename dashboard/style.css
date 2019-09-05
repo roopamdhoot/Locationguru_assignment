@@ -188,7 +188,7 @@ border-radius:12px;
     width:30%;
     padding-right:50px;
     margin-top:-740px;
-    margin-right:rem;
+    
     border-right: 1px solid red; 
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;   
@@ -202,8 +202,8 @@ border-radius:12px;
     margin-top:20px;
 }
 .notification-icon{
-    margin-top:60px;
-    margin-left:20px;
+    margin-top:50px;
+    margin-left:50px;
     background-color: #fdd426;
     padding:10px;
     border-radius:10px;
@@ -215,18 +215,18 @@ border-radius:12px;
 }
 .profile-title{
     margin-top:30px;
-    margin-right:90px;
+    margin-right:100px;
     float:right;
     
 }.profile-title img{
-    margin-left:0px;
+    
     border-radius:35px;
 
     padding:20px;
 }
 .profile-title h2{
     margin-top:20px;
-    margin-left:50px;
+
     font-size:26px;
 }
 .view-more{
@@ -380,6 +380,6 @@ border-top-left-radius: 40px;
 border-top-right-radius: 40px;
   }
   .slack-button{
-    margin-left:20px;
+    margin-left:40px;
   }
  

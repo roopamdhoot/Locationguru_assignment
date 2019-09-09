@@ -1,0 +1,309 @@
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .menu li {
+      float: left;
+      list-style: none;
+      background-color: white;
+      box-shadow: 3px 3px 3px 3px #bfbfbf;
+      margin-left: 32px;
+      width: 56.25px;
+      height: 96.25px;
+      margin-top: 25px;
+      border-top-left-radius: 29px;
+      border-top-right-radius: 29px;
+      border-bottom-left-radius: 29px;
+      border-bottom-right-radius: 29px;
+  }
+  
+  .menu li:hover {
+      background-color: #fbd560;
+  }
+  
+  .menu li div img {
+      border: 1px solid grey;
+      border-radius: 55px;
+      height: 34px;
+      width: 36px;
+      margin-top: 10px;
+      margin-left: 10px;
+      background-color: white;
+  }
+  
+  .menu li div div p {
+      font-size: 14px;
+      text-align: center;
+  }
+  
+  .menu {
+      width: 50%;
+      height: 195px;
+      margin-top: 15px;
+      margin-left: 10px;
+  }
+  
+  .header {
+      margin-top: 30px;
+  }
+  
+  .header img {
+      height: 40px;
+      margin-left: 30px;
+      width: 40px;
+  }
+  
+  .header h2 {
+      margin-top: -35px;
+      margin-left: 150px;
+  }
+  
+  .search {
+      float: right;
+      margin-right: 40rem;
+      margin-top: -25px;
+      background-color: #F8F8F7;
+      padding-right: 19rem;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 45px;
+      border: none;
+      border-radius: 15px;
+  }
+  
+  .search img {
+      height: 15px;
+      width: 15px;
+  }
+  
+  .search input[type="text"] {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      border: none;
+      background-color: #f8f8f7;
+  }
+  
+  .banner {
+      background-color: #fff7ee;
+      width: 55%;
+      height: 12rem;
+      margin-top: 6rem;
+      margin-left: 30px;
+      border-radius: 20px;
+      box-shadow: 3px 3px 3px 3px #bfbfbf
+  }
+  
+  .banner-graphics {
+      margin-top: -40px;
+      margin-left: 50px;
+  }
+  
+  .banner h3 {
+      margin-left: 19.75rem;
+      margin-top: -120px;
+      color: #fb723d;
+      font-size: 25px;
+  }
+  
+  .emoji {
+      margin-left: 34.5rem;
+      margin-top: -30px
+  }
+  
+  .wrapper {
+      margin-top: 5px;
+      margin-left: 19.75rem;
+      color: #bfbfbf;
+      font-size: 14px;
+  }
+  
+  .ref-link {
+      float: right;
+      margin-right: 25px;
+  }
+  
+  .ref-link a {
+      text-decoration: none;
+      color: #fb723d;
+      font-size: 16px;
+  }
+  
+  .inner-wrapper {
+      margin-top: 50px;
+  }
+  
+  .inner-wrapper h2 {
+      font-size: 30px;
+      margin-left: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .inner-wrapper div {
+      margin-left: 15rem;
+      margin-top: -30px;
+  }
+  
+  .delivey-now {
+      float: right;
+      margin-top: -35px;
+      margin-right: 41rem;
+      padding: 15px 20px 15px 20px;
+      background-color: #fb6d37;
+      color: white;
+      border-radius: 30px;
+      border: 1px solid #fb6d37;
+  }
+  
+  @media only screen and (max-width:600px) {
+      .body {
+          display: none;
+      }
+  }
+  
+  .burger {
+      margin-left: 25px;
+  }
+  
+  .nav {
+      float: right;
+      margin-top: -40rem;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 25%;
+      background-color: #fcfcfa;
+      height: 49.5rem;
+  }
+  
+  .address-wrapper {
+      background-color: #4f3c9e;
+      border-radius: 5px;
+      height: 4rem;
+      margin: 30px;
+      width: 16rem;
+      padding: 20px;
+  }
+  
+  .address-wrapper h5 {
+      font-size: 16px;
+      margin-top: 10px;
+      color: white;
+  }
+  
+  .address-wrapper a {
+      float: right;
+      color: #b59979;
+  }
+  
+  .user-icon {
+      float: right;
+      margin-right: 1rem;
+      margin-top: 2.3rem;
+  }
+  
+  .user-count {
+      float: right;
+      margin-right: 3.5rem;
+      background-color: #fbd560;
+      padding: 5px 10px 5px 10px;
+      border-radius: 10px;
+      margin-top: 2rem;
+  }
+  
+  .nav-header {
+      margin-top: 7rem;
+      font-size: 25px;
+      margin-left: 25px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .product1 {
+      margin-left: 50px;
+  }
+  
+  .bagel {
+      border-radius: 16px;
+  }
+  
+  .stick {
+      background-color: #f8f8f7;
+      margin-top: -29px;
+      width: 70px;
+      height: 25.3px;
+      position: absolute;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 15px;
+  }
+  
+  .card-title {
+      margin-top: 0px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card li {
+      float: left;
+      list-style: none;
+  }
+  
+  .address-title {
+      margin-top: 10px;
+      color: white;
+  }
+  
+  .time {
+      margin-top: 20px;
+      color: white;
+  }
+  
+  .time img {
+      background-color: #7872b2;
+      border-radius: 3px;
+  }
+  
+  .choose-time {
+      margin-top: -15px;
+  }
+  
+  .order-list {
+      margin-left: 25px;
+  }
+  
+  .order-name {
+      float: right;
+      width: 85px;
+      margin-right: 10rem;
+      margin-top: -20px;
+  }
+  
+  .order-price {
+      display: block;
+      margin-left: 15rem;
+      opacity: 0.5;
+      width: 20px;
+      margin-top: -20px;
+  }
+  
+  .final-amount h2 {
+      float: right;
+      margin-top: -30px;
+      margin-right: 33px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .total h3 {
+      margin-top: 25px;
+      font-size: 15px;
+      margin-left: 33px;
+      margin-top: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .checkout button {
+      background-color: #fbd560;
+      padding: 10px 15px 15px 10px;
+      float: right;
+      border: none;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }

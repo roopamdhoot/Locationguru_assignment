@@ -1,19 +1,23 @@
-
-
-
-function datatype(){
-console.log(Object.prototype.toString.call(45));
-console.log(Object.prototype.toString.call([1,2,3]));
-
-console.log(Object.prototype.toString.call(false));
-
-
-console.log(Object.prototype.toString.call("foo bar"));
-
-console.log(Object.prototype.toString.call(null));
-
-console.log(Object.prototype.toString.call(/123/));
-
-console.log(Object.prototype.toString.call(undefined))
+function button(str){
+    str=str.split('')
+    var cnt=0;
+    arr={
+        a:1,
+        b:2,
+        c:3,
+        d:4,
+        e:5,
+        f:6,
+        g:7,
+        h:8,i:9,j:10,k:11,l:12,m:13,n:14,o:15,p:16,q:17,r:18,s:19,t:20,u:21,v:22,w:23,x:24,y:25,z:26
+    }
+    for(i=0;i<str.length;i++){
+    if(str[i]in arr){
+        cnt=cnt+arr[str[i]];
+    }
+    
+ }
+ console.log(cnt);
 }
-datatype();
+var str="azy";
+button(str);

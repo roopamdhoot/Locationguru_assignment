@@ -1,10 +1,7 @@
-function strLen(str,cnt) {
-    cnt =cnt|| 0;
-    if (str.length) {
-    return strLen(str.substr(1), ++cnt);
-    } else {
-        return cnt;
-    }
+//assignment6
+let arr=[1,2,3,4];
+function reverse(arr){
+arr=arr.reverse();
+console.log(arr);
 }
-
-console.log(strLen("apple"));
+reverse(arr);

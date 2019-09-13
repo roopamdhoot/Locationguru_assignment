@@ -1,14 +1,19 @@
-function convert(str){
-    str=str.split(' ');
-    for(var i=0;i<str.length;i++){
-    if(str[i]=='zero'){
-        str[i]='0';
-    }
-    else if(str[i]=='one'){
-        str[i]='1';
-    }
-    console.log(str[i]);
+
+
+
+function datatype(){
+console.log(Object.prototype.toString.call(45));
+console.log(Object.prototype.toString.call([1,2,3]));
+
+console.log(Object.prototype.toString.call(false));
+
+
+console.log(Object.prototype.toString.call("foo bar"));
+
+console.log(Object.prototype.toString.call(null));
+
+console.log(Object.prototype.toString.call(/123/));
+
+console.log(Object.prototype.toString.call(undefined))
 }
-}
-var str="zero one one zero";
-convert(str);
+datatype();

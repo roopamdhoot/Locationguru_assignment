@@ -1,15 +1,17 @@
- //assignment9
- function remove(array){
-    var arr=[];
-    for(i=0;i< array.length;i++){
-        if(arr.indexOf(array[i]) === -1){
-            arr.push(array[i]);
-        }
-    }
-
-return arr;
-}
-
-var names= ['1','2','3','1','1'];
-var g=remove(names);
-console.log(g);
+//assignment10
+    function isEqual() 
+    { 
+    var a = [1, 2]; 
+    var b = [2,1]; 
+        if(a.length!=b.length) 
+    return "False"; 
+    else
+    {
+    for(var i=0;i<a.length;i++) 
+    if(a[i]!=b[i]) 
+        return "False"; 
+        return "True"; 
+    } 
+    } 
+    var g = isEqual(); 
+    console.log(g)

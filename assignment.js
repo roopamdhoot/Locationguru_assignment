@@ -1,18 +1,20 @@
-//assignment13
-var abc=""
-function fun(str){
-    
+function count(str){
+    cntx=0;
+    cnto=0;
     for(var i=0;i<str.length;i++){
-        if(str[i]>='A'&& str[i]<='Z'){
-            abc+= ' ' + str[i];
-            
+        if(str[i]=='x'||str[i]=='X'){
+            cntx=cntx+1;
         }
-        else {
-        abc+= str[i];
+        else if(str[i]=='o' ||str[i]=='O'){
+            cnto+=1;
         }
     }
-    console.log(abc);
-}
-var str="HelloWorldItsRoopam";
-
-fun(str);
+    if(cntx==cnto){
+        console.log("true");
+    }
+    else{
+        console.log("false");
+    }
+    }
+    var str="xooxx";
+    count(str);

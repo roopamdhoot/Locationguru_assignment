@@ -1,20 +1,16 @@
-function count(str){
-    cntx=0;
-    cnto=0;
-    for(var i=0;i<str.length;i++){
-        if(str[i]=='x'||str[i]=='X'){
-            cntx=cntx+1;
+//assignment16
+        function validemail(email){
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
         }
-        else if(str[i]=='o' ||str[i]=='O'){
-            cnto+=1;
+        function validate(email){
+            
+            if(validemail(email)){
+                console.log("true");
+            }
+            else{
+                console.log("false");
+            }
         }
-    }
-    if(cntx==cnto){
-        console.log("true");
-    }
-    else{
-        console.log("false");
-    }
-    }
-    var str="xooxx";
-    count(str);
+        var email="roopamdhoot.2013@rediffmail.com";
+        validate(email);

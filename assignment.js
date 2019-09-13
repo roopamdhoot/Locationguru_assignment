@@ -1,17 +1,10 @@
-//assignment10
-    function isEqual() 
-    { 
-    var a = [1, 2]; 
-    var b = [2,1]; 
-        if(a.length!=b.length) 
-    return "False"; 
-    else
-    {
-    for(var i=0;i<a.length;i++) 
-    if(a[i]!=b[i]) 
-        return "False"; 
-        return "True"; 
-    } 
-    } 
-    var g = isEqual(); 
-    console.log(g)
+ //assignment11
+        var a = [1,2,3,4,6,7,8,9,10], count = 10;
+    var missing = new Array();
+
+    for(var i=1;i<=count;i++) {
+        if(a.indexOf(i) == -1){
+            missing.push(i);
+        }
+    }
+    console.log(missing);

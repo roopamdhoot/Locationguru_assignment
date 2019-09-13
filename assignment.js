@@ -1,11 +1,10 @@
-let a=2
-    let b=4
-    let c=4;
-    function animals(){
-    let x=2
-    let y=3
-    let z=5
-    let d=a*x+b*y+c*z;  
-    console.log(d);
+function strLen(str,cnt) {
+    cnt =cnt|| 0;
+    if (str.length) {
+    return strLen(str.substr(1), ++cnt);
+    } else {
+        return cnt;
     }
-    animals()
+}
+
+console.log(strLen("apple"));

@@ -132,10 +132,10 @@
         cntx=0;
         cnto=0;
         for(var i=0;i<str.length;i++){
-            if(str[i]=='x'){
+            if(str[i]=='x' ||str[i]=='X'){
                 cntx=cntx+1;
             }
-            else if(str[i]=='o'){
+            else if(str[i]=='o'||str[i]=='O'){
                 cnto+=1;
             }
         }

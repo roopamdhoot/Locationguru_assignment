@@ -1,8 +1,9 @@
-//assignment1
-function myfunction(){
-    let a=[1,2,3];
-    console.log(a[0]);
+let a={
+    value:10
+};
+function myfun(a){
+a.value++;
+
 }
-myfunction();
-
-
+myfun(a);
+console.log(a);

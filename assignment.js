@@ -1,10 +1,9 @@
-function strLen(str,cnt) {
-    cnt =cnt|| 0;
-    if (str.length) {
-    return strLen(str.substr(1), ++cnt);
-    } else {
-        return cnt;
-    }
-}
+let s=" ";
+function empty(s){
+if(s=="")
+    console.log("true");
+else
+    console.log("false");
 
-console.log(strLen("apple"));
+}
+empty(s) ;

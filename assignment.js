@@ -1,16 +1,14 @@
-//assignment16
-        function validemail(email){
-            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            return re.test(email);
-        }
-        function validate(email){
-            
-            if(validemail(email)){
-                console.log("true");
-            }
-            else{
-                console.log("false");
-            }
-        }
-        var email="roopamdhoot.2013@rediffmail.com";
-        validate(email);
+function convert(str){
+    str=str.split(' ');
+    for(var i=0;i<str.length;i++){
+    if(str[i]=='zero'){
+        str[i]='0';
+    }
+    else if(str[i]=='one'){
+        str[i]='1';
+    }
+    console.log(str[i]);
+}
+}
+var str="zero one one zero";
+convert(str);

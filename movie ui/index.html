@@ -24,7 +24,7 @@
         
             <div class="range-filter"><p>Range filter</p>
                     <div >
-                            <input type="text" id="range1" onblur="range()"><input type="text" id="range2" onblur="range()">
+                            <input type="text" id="range1" onblur="range()" placeholder="starting date"><input type="text" id="range2" onblur="range()" placeholder="ending date">
                 
                         </div>
                 
@@ -171,10 +171,11 @@
               
                 return data.name.indexOf(b.toLowerCase()) >-1 ;
             }); 
-            var count=json.length;
-            document.getElementById("count").value=count;
+           
             console.log(json.length);
             renderHtml(json);
+            var count=json.length;
+            document.getElementById("count").value=count;
         }
       
     function year(){
@@ -186,9 +187,11 @@
       });      
       console.log(filter);
       renderHtml(filter);
+      
+      
       var count=filter.length;
-    document.getElementById("count").value=count;
-      document.getElementById("movie").innerHTML = abc;   
+    document.getElementById("count").value=count; 
+    console.log(count);
         
     }
     function range(){
@@ -198,7 +201,7 @@
     var range22 =new Date(range23);
       var rangeJSON=myJSON.filter(function(data){
         var date = new Date(data.releasedate);
-      return (date >= range11 && date <= range22) ;
+      return (date >= range11 && date <= range22) || range11=="" ||range22=="";
       
       }); 
     

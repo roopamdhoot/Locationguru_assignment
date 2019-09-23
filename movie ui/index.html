@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>s
+
+    <title>Document</title>
+    
+</head>
+
+<body class="body"><div class="">
+    <div class="search-bar">
+        <input type="text" placeholder="Search...." id="search" autocomplete="off" onkeyup="search()">  
+    </div>
+    
+        
+            <div class="range-filter"><p>Range filter</p>
+                    <div >
+                            <input type="text" id="range1" onblur="range()"><input type="text" id="range2" onblur="range()">
+                
+                        </div>
+                
+            </div>
+            <div class="drop-down">
+                    <select class="filter" id="age" onchange="year()">
+                        <option>Filter</option>
+                        <option>2019</option>
+                        <option>2018</option>
+                        <option>2017</option>
+                        <option>2016</option>
+                        <option>2015</option>
+                        <option>2014</option>
+                        <option>2013</option>
+                        <option>2012</option>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                    </select>
+        
+                </div>
+                <div style="margin-left:67rem;margin-top:-2.3rem;border: none;outline: none" >
+                <select id="sortselect" onchange="sort(this.value)" class="sort">
+                    <option >Sort</option>
+                    <option value="name">name</option>
+                    <option value="rating" >By rating(ascending)</option>
+                    <option value="releasedate">By releaseyear</option>
+                    <option >By releasedate(descending)</option>
+                    
+                </select></div>
+    </div><div style="float: right;margin-right:5rem;margin-top:-2.5rem ">
+   <input type="text" id="count" size="12"></div>
+        <div class="movies" id="movie">
+
+        </div>
+        
+               
+</body>
+<script>
+     $( function() {
+    $( "#range1" ).datepicker();
+  } );
+  $( function() {
+    $( "#range2" ).datepicker();
+  } );
+        var myJSON = [{
+            "img": "./1.jpg",
+            "rating":"3.2",
+            "name": "spiderman1",
+            "releasedate": new Date("2019-07-12"),
+        },
+        {
+            "img": "./2.jpg",
+            "rating":"3.2",
+            "name": "harry potter",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./3.jpg",
+            "rating":"3.2",
+            "name": "yjhd",
+            "releasedate": new Date("2017-07-12")   
+         },
+        {
+            "img": "./4.jpg",
+            "rating":"3.2",
+            "name": "avenger",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./5.jpg",
+            "rating":"3.2",
+            "name": "kaappaan",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./6.jpg",
+            "rating":"3.1",
+            "name": "spiderman",
+            "releasedate": new Date("2018-07-12")
+        },
+        {
+            "img": "./7.jpg",
+            "rating":"3.8",
+            "name": "mib",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./8.jpg",
+            "rating":"3.7",
+            "name": "party",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./8.jpg",
+            "rating":"3.7",
+            "name": "party",
+            "releasedate": new Date("2019-07-12")
+        },
+        {
+            "img": "./8.jpg",
+            "rating":"3.7",
+            "name": "party",
+            "releasedate": new Date("2019-07-12")
+        },
+        
+    
+        ];
+    for(var i=0;i<myJSON.length;i++){
+        var c=myJSON[i].releasedate;
+        
+        var a2=myJSON[i].releasedate.getMonth();
+        var a3=myJSON[i].releasedate.getFullYear()
+    }
+        var arr = myJSON
+        function renderHtml(arr) {
+             var abc = '';
+            arr.forEach(ac => {
+                abc = abc + `<div id="card">
+                        <div class="card" style="width: 15rem;">
+                                <div class="rating"> <img src="./star.png" height="10" width="10">
+                                `+ac.rating+`
+                                </div>
+                                <img src="`+ ac.img + `" style="height:10rem" class="card-img-top img" alt="...">
+                              
+                                <div class="card-body" style="background-color: #424242">
+                                  <p class="card-text" > <h2 style="color: white" id="demo">`+ ac.name + `</h2></p>
+                                  <p class="card-text" style="color:red;font-size:15px;"id="release"> Release Date:`+ ac.releasedate.getMonth() +`/`+ ac.releasedate.getDate() +`/`+ac.releasedate.getFullYear()+`</p>
+                                </div>
+                         </div>
+                      </div>`
+            });
+            document.getElementById("movie").innerHTML = abc;
+            var count=myJSON.length;
+            document.getElementById("count").value=count;
+        }
+        renderHtml(arr);
+       
+    
+        function search() {
+            b = document.getElementById("search").value;
+    
+            var json = myJSON.filter(function (data) {
+              
+                return data.name.indexOf(b.toLowerCase()) >-1 ;
+            }); 
+            var count=json.length;
+            document.getElementById("count").value=count;
+            console.log(json.length);
+            renderHtml(json);
+        }
+      
+    function year(){
+        var yearSelect = document.getElementById("age");
+        var yearText = yearSelect.options[yearSelect.selectedIndex].value;
+        var filter=myJSON.filter(function(data){
+            
+        return yearText==data.releasedate.getFullYear() || yearText=="Filter";
+      });      
+      console.log(filter);
+      renderHtml(filter);
+      var count=filter.length;
+    document.getElementById("count").value=count;
+      document.getElementById("movie").innerHTML = abc;   
+        
+    }
+    function range(){
+      range12=document.getElementById("range1").value;
+      var range11=new Date(range12);
+    range23=document.getElementById("range2").value;
+    var range22 =new Date(range23);
+      var rangeJSON=myJSON.filter(function(data){
+        var date = new Date(data.releasedate);
+      return (date >= range11 && date <= range22) ;
+      
+      }); 
+    
+    var count=rangeJSON.length;
+     document.getElementById("count").value=count;
+     console.log(rangeJSON)
+     renderHtml(rangeJSON);
+     
+    }
+    function sort(sortby){
+       var json=myJSON.sort(function(a,b){
+            return a[sortby]-b[sortby];
+        });
+
+         if(sortby=="name"){
+            var json=myJSON.sort((a,b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0));
+         }     
+         var count=json.length;
+            document.getElementById("count").value=count;
+      renderHtml(json);
+      console.log(json);
+    }
+    
+     
+    
+    </script>
+
+</html> 
